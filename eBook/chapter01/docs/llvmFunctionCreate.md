@@ -1,8 +1,9 @@
 ### 2. `llvm::Function::Create` 使用
-在 LLVM 中，llvm::Function::Create 是用于创建 IR（中间表示）中函数的核心 API，属于 CodeGen API 的一部分。它允许您定义一个函数，包括其签名（返回类型和参数类型）、名称和链接类型（如外部链接），并将其添加到 Module 中。
+
+​	在 LLVM 中，llvm::Function::Create 是用于创建 IR（中间表示）中函数的核心 API，属于 CodeGen API 的一部分。它允许您定义一个函数，包括其签名（返回类型和参数类型）、名称和链接类型（如外部链接），并将其添加到 Module 中。
+
 - **头文件**：`<llvm/IR/Function.h>`
-- **功能**：llvm::Function::Create是llvm明明空间中的一个全局函数， 用于创建 `llvm::Function` 对象。 `llvm::Function` 对象代表 IR 中的一个函数，包含函数签名、名称、参数和基本块（BasicBlock）。函数必须绑定到一个 `Module`。
-- **用途**：`llvm::Function::Create` 用于创建 IR（中间表示）中函数。它允许您定义一个函数，包括其签名（返回类型和参数类型）、名称和链接类型（如外部链接），并将其添加到 `Module` 中。
+- **功能**：llvm::Function::Create是Function类的静态成员函数， 用于创建 `llvm::Function` 对象。 `llvm::Function` 对象代表 IR 中的一个函数，包含函数签名、名称、参数和基本块（BasicBlock）。函数必须绑定到一个 `Module`。
 - **返回类型**：`llvm::Function*`，指向创建的函数对象。
 
 #### 函数签名

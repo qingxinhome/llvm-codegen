@@ -5,11 +5,12 @@
 #### **说明**：
 
 - `llvm::FunctionType::get` 方法定义在 **`<llvm/IR/Function.h>`** 头文件中。
-- `FunctionType` 是 LLVM IR 中用于表示函数类型的类，`get` 是其静态方法，用于创建函数类型。
+- `FunctionType` 是 LLVM IR 中用于表示函数类型的类，`get` 是FunctionType类的静态成员方法，用于创建函数类型。
 - 该头文件包含了与函数相关的核心类和方法（如 `llvm::Function` 和 `llvm::FunctionType`），广泛用于生成 LLVM IR 的函数签名。
 
 #### 功能
 `llvm::FunctionType::get` 创建一个 `FunctionType` 对象，表示函数的类型签名，包括：
+
 - 返回值的类型（如 `i32`、`float`、指针类型等）。
 - 参数列表的类型。
 - 是否为变长参数函数（varargs）。

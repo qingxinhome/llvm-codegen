@@ -1,0 +1,6 @@
+/home/yiming/.cache/JetBrains/RemoteDev/dist/9e0128be961c6_CLion-2025.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/yiming/.cache/JetBrains/RemoteDev/dist/9e0128be961c6_CLion-2025.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/yiming/workspace/llvm-codegen/eBook/chapter01/test01 -B /home/yiming/workspace/llvm-codegen/eBook/chapter01/test01/cmake-build-debug
+-- Found LLVM 18.1.8
+-- Using LLVMConfig.cmake in: /usr/local/llvm-18.1.8/lib/cmake/llvm
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yiming/workspace/llvm-codegen/eBook/chapter01/test01/cmake-build-debug
