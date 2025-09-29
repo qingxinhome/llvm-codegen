@@ -1,6 +1,44 @@
-/home/yiming/.cache/JetBrains/RemoteDev/dist/9e0128be961c6_CLion-2025.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/yiming/.cache/JetBrains/RemoteDev/dist/9e0128be961c6_CLion-2025.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02 -B /home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02/cmake-build-debug
+/home/yiming/.cache/JetBrains/RemoteDev/dist/9e0128be961c6_CLion-2025.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/yiming/.cache/JetBrains/RemoteDev/dist/9e0128be961c6_CLion-2025.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/yiming/workspace/llvm-codegen/codegen/chapter01/test02 -B /home/yiming/workspace/llvm-codegen/codegen/chapter01/test02/cmake-build-debug
+-- The C compiler identification is GNU 11.5.0
+-- The CXX compiler identification is GNU 11.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for histedit.h
+CMake Warning (dev) at /home/yiming/.cache/JetBrains/RemoteDev/dist/9e0128be961c6_CLion-2025.1/bin/cmake/linux/x64/share/cmake-3.31/Modules/CheckIncludeFile.cmake:79 (message):
+  Policy CMP0075 is not set: Include file check macros honor
+  CMAKE_REQUIRED_LIBRARIES.  Run "cmake --help-policy CMP0075" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  CMAKE_REQUIRED_LIBRARIES is set to:
+
+    /usr/lib64/libedit.so
+
+  For compatibility with CMake 3.11 and below this check is ignoring it.
+Call Stack (most recent call first):
+  /usr/local/llvm-18.1.8/lib/cmake/llvm/FindLibEdit.cmake:28 (check_include_file)
+  /usr/local/llvm-18.1.8/lib/cmake/llvm/LLVMConfig.cmake:259 (find_package)
+  CMakeLists.txt:5 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Looking for histedit.h - found
+-- Found LibEdit: /usr/include (found version "2.11")
+-- Performing Test Terminfo_LINKABLE
+-- Performing Test Terminfo_LINKABLE - Success
+-- Found Terminfo: /usr/lib64/libtinfo.so
+-- Found ZLIB: /usr/lib64/libz.so (found version "1.2.11")
+-- Found zstd: /usr/lib64/libzstd.so
+-- Found LibXml2: /usr/lib64/libxml2.so (found version "2.9.13")
 -- Found LLVM 18.1.8
 -- Using LLVMConfig.cmake in: /usr/local/llvm-18.1.8/lib/cmake/llvm
--- Configuring done (0.1s)
+-- Configuring done (0.9s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02/cmake-build-debug
+-- Build files have been written to: /home/yiming/workspace/llvm-codegen/codegen/chapter01/test02/cmake-build-debug

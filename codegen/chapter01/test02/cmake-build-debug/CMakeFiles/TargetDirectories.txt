@@ -1,7 +1,7 @@
-/home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/intrinsics_gen.dir
-/home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/omp_gen.dir
-/home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/acc_gen.dir
-/home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/RISCVTargetParserTableGen.dir
-/home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/main.dir
-/home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/yiming/workspace/llvm-codegen/eBook/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/yiming/workspace/llvm-codegen/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/intrinsics_gen.dir
+/home/yiming/workspace/llvm-codegen/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/omp_gen.dir
+/home/yiming/workspace/llvm-codegen/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/acc_gen.dir
+/home/yiming/workspace/llvm-codegen/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/yiming/workspace/llvm-codegen/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/main.dir
+/home/yiming/workspace/llvm-codegen/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yiming/workspace/llvm-codegen/codegen/chapter01/test02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
